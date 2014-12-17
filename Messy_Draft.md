@@ -1,6 +1,6 @@
 # Abstract
 
-Technical documentation is boring. It's boring to create, it's boring to find, and it's especially boring to read. But, technical documentation is also an incredibly important resource for users and developers of digital libraries. This is especially true of large scale digital library initiatives that offer application programming interfaces (APIs) for accessing large, complex corpora of digital objects. In this paper we propose evaluation criteria for APIs
+Technical documentation is boring. It's boring to plan, it's boring to create, and it's especially boring to read. But, technical documentation is also an incredibly important resource for users and developers of digital libraries. This is especially true of large scale digital library initiatives that offer application programming interfaces (APIs) for accessing large collections of digital artifacts. In this paper we propose evaluation criteria for APIs. 
 
 ## Introduction
 
