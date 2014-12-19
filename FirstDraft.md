@@ -12,35 +12,34 @@ It may seem trite to observe the profound effect that large-scale digital librar
 - In his revelatory economic work, Thomas Piketty claimed that the 19th and 20th century novel was a mirror of income inequality  ... Underwood et al. used the HathiTrust digital library - a collection of X million texts - to show that in fact, fiscal language became more pronounced during this time period (2014).  
 - Other examples
 
-These examples are not subtle shifts in scholarship - they represent paradigmatic new ways of knowing, and they simultaneously require new approaches to traditional concepts in digital library development, such as the scholarly collections (Wicket et al, 2014), accessibility (), intellectual property rights (), and evaluation criteria (Feinberg, )
+These examples are not subtle shifts in scholarship - they represent paradigmatic new ways of knowing, and they simultaneously require new approaches to traditional concepts in digital library development, such as the scholarly collections (Wicket et al, 2014), accessibility (Gonclaves et al., 2007), intellectual property rights (Downie et al., 2012), user literacy (Forte et al, 2014), and appraisal (Feinberg, 2013).
 
-In this paper, we focus on documentation of application programming interfaces (APIs) as      
-
-
+In this paper, we focus on an overlooked but profoundly important ascpect of digital library development - technical documentation - focusing on the assesability of different types of documenation available to users of application programming interfaces (APIs).       
 
 ### Why does documentation matter? 
 
-Complete and timely technical documentation has been show to be the leading indicator of trust between developers and users of open-source software (Dagenais & Robillar, 2010). 
+[Make argument from standards lit ... and also draw on tech. documentation lit ]
 
-There is a long history of studying technical documentation in terms of its understandability, and its effectiveness for end users. 
+For instance, omplete and timely technical documentation has been show to be the most important factor in establishing trust between developers and users of open-source software (Dagenais & Robillar, 2010). 
 
-There are two points to be made - one utilitarian, and the other economic: 
+Technical documentation is generally :
 
-    Utilitarian 
+1. Utilitarian 
 
+2. Economic 
 
-    Economic 
+There is a long history of studying technical documentation in terms of its understandability, and its effectiveness for end users. As early as the 1970s economic studies of technical documentation were being conducted - finding that improved technical documentation could save the government $1.7 million (Shriver and Hart, 1975). 
 
-As early as the 1970s economic studies of technical documentation were being conducted - finding that improved technical documentation could save the government $1.7 million (Shriver and Hart, 1975). 
-
-
-Q & A sites, development blogs, and social media also play an important role in supplementing existing documentation - in some cases - offering high levels of coverage and author engagement (Parnin and Treude, 2011). A distinction can be made between the types of documentation we've described thus far: 
+ A distinction can be made between the _types_ of documentation we've described thus far: 
 
 - *developer documentaiton* [write defintion of typical tech. documentaiton here here]
 
 - *communnity documentation*, such as wikis used by open source projects, allow anyone involved with the creation or use of a resource to contribute to documentation about the resource. 
 
 - *crowd documentation*, such as developer blogs and Q and A, are individual contributions that often focus on documenting a single aspect of the resource. In aggregate, crowd documentation has proven to be rich in both coverage and quality [2011]
+
+`Q & A sites, development blogs, and social media also play an important role in supplementing existing documentation - in some cases - offering high levels of coverage and author engagement (Parnin and Treude, 2011).`
+
 
 Our focus is on documentation for application programming interfaces (APIs) in digital libraries. 
 
@@ -145,3 +144,11 @@ Laboratory, December 1975
 Other things to look at: 
 
 - Metadata Coverage Index: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3558968/
+ 
+- Gonçalves, M. A., Moreira, B. L., Fox, E. A., & Watson, L. T. (2007). “What is a good digital library?”–A quality model for digital libraries. Information Processing & Management, 43(5), 1416-1437.
+
+- Downie, J. S., B. Plale, M. S. Poole, and R. H. McDonald, Toward non-consumptive formal evaluation challenges using the HathiTrust Research Center digital collections, Japanese Association for Digital Humanities Conference (JADH 2012), http://www.jadh.org/jadh2012, Tokyo, Japan, Sep 2012. 
+
+- Feinberg, M. (2013, July). Comparative appraisal: systematic assessment of expressive qualities. In Proceedings of the 13th ACM/IEEE-CS joint conference on Digital libraries (pp. 115-124). ACM.
+
+- Forte, A., Andalibi, N., Park, T., & Willever-Farr, H. (2014, April). Designing information savvy societies: an introduction to assessability. In Proceedings of the 32nd annual ACM conference on Human factors in computing systems (pp. 2471-2480). ACM.
