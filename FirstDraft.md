@@ -1,6 +1,9 @@
+# Assesability Design for Digital Library API Documentation
+
 # Abstract
 
-Technical documentation is boring. It's boring to create and it's especially boring to read. But, technical documentation is also an incredibly important resource for users and developers of digital libraries. This is especially true of large scale digital library initiatives that offer application programming interfaces (APIs) for accessing large collections of digital artifacts. In this paper we propose evaluation criteria for digital library APIs, and introduce a coverage and completeness metric for technical documentaiton more generally.  
+Technical documentation is boring. It's boring to create and it's especially boring to read. But, technical documentation is also an incredibly important resource for users and developers of digital libraries. This is especially true of large scale digital libraries  that provide application programming interfaces (APIs) for accessing large collections of digital artifacts. In this paper we  draw on the concept of assesability design  for digital library API documentation, in order to
+evaluate the coverage and completeness of these resources for end users.  
 
 ## Introduction
 
