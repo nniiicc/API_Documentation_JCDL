@@ -1,8 +1,7 @@
 API_Documentation_JCDL
 ======================
 
-Repo for API Documentation paper @ JCDL 2015
+A paper about the coverage and completeness of DL API documentation to submit to @ JCDL 2015. 
 
-This document contains drafts, source documents, and data for JCDL draft. 
-
-The wiki contains space for potential ideas - folders contain data and rest of content. 
+- A draft with basic research questions and convoluted sketch are [here](https://github.com/nniiicc/API_Documentation_JCDL/edit/master/Messy_Draft.md) 
+- A quick and dirty list of links, and the beginning of a lit review are [here](https://github.com/nniiicc/API_Documentation_JCDL/wiki/Relevant-Lit)
