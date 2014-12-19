@@ -9,10 +9,13 @@ evaluate the coverage and completeness of these resources for end users.
 
 It may seem trite to observe the profound effect that large-scale digital library initiatives have had on the access, and use of of cultural heritage artifacts; but, it shouldn't. Initiatives such as Europeana, the Hathi Trust, and the Digital Public Library of America (DPLA) have created collections of diverse digital materials that make new forms of scholarship, and new modes of cultural understanding possible. Perhaps most profoundly, these new aggregations of resources are allowing the digital humanities to flourish - realizing the potential of not only a 'Renaissance' view of great ideas, but also a pragmatic view of ourselves and the role of the arts in our public lives (Adams, 2014). Consider the following examples: 
 
-- In his revelatory economic work, Thomas Piketty claimed that the 19th and 20th century novel was a mirror of income inequality  ... Underwood et al. used the HathiTrust digital library - a collection of X million texts - to show that in fact, fiscal language became more pronounced during this time period (2014).  
-- Other examples
+- In his revelatory economic work, Thomas Piketty claimed that the 19th and 20th century novel was a societal mirror - the absence of financial verbiage reflected - albeit subtly- recognition of income inequality.  Underwood et al. used the HathiTrust digital library - a collection of X million texts - to show that in fact, fiscal language became more pronounced during this time period (2014).   
+ 
+- The Culture-omics work at Harvard + Internet Archive
 
-These examples are not subtle shifts in scholarship - they represent paradigmatic new ways of knowing, and they simultaneously require new approaches to traditional concepts in digital library development, such as the scholarly collections (Wicket et al, 2014), accessibility (Gonclaves et al., 2007), intellectual property rights (Downie et al., 2012), user literacy (Forte et al, 2014), and appraisal (Feinberg, 2013).
+- Lev Manovich's work at CUNY + Archives of Europeana and Flickr
+
+These examples are not subtle shifts in scholarship - they represent paradigmatic new ways of knowing ... and they demonstrate a need for new approaches to traditional concepts in digital library development, such as the scholarly collections (Wicket et al, 2014), accessibility (Gonclaves et al., 2007), intellectual property rights (Downie et al., 2012), user literacy (Forte et al, 2014), and appraisal (Feinberg, 2013).
 
 In this paper, we focus on an overlooked but profoundly important ascpect of digital library development - technical documentation - focusing on the assesability of different types of documenation available to users of application programming interfaces (APIs).       
 
@@ -22,15 +25,13 @@ In this paper, we focus on an overlooked but profoundly important ascpect of dig
 
 For instance, omplete and timely technical documentation has been show to be the most important factor in establishing trust between developers and users of open-source software (Dagenais & Robillar, 2010). 
 
-Technical documentation is generally :
+The design of technical documentation is generally described in terms of an economic benefit - it makes work more efficient - saving time, money, and effort. 
 
-1. Utilitarian 
+There is a long history of studying technical documentation in terms of its understandability, effectiveness, and ultimately it's financial impact on organizations. As early as the 1970s economic studies of technical documentation were being conducted - finding that improved technical documentation could save the government $1.7 million (Shriver and Hart, 1975). 
 
-2. Economic 
+#### What is documentiaton 
 
-There is a long history of studying technical documentation in terms of its understandability, and its effectiveness for end users. As early as the 1970s economic studies of technical documentation were being conducted - finding that improved technical documentation could save the government $1.7 million (Shriver and Hart, 1975). 
-
- A distinction can be made between the _types_ of documentation we've described thus far: 
+ A distinction can be made between the _types_ of technical documentation we've described thus far: 
 
 - *developer documentaiton* [write defintion of typical tech. documentaiton here here]
 
@@ -40,33 +41,32 @@ There is a long history of studying technical documentation in terms of its unde
 
 `Q & A sites, development blogs, and social media also play an important role in supplementing existing documentation - in some cases - offering high levels of coverage and author engagement (Parnin and Treude, 2011).`
 
+Our focus is on all three types of documentation for application programming interfaces (APIs) in digital libraries. 
 
-Our focus is on documentation for application programming interfaces (APIs) in digital libraries. 
+[ Brief discussion of what APIs are and why they matter to DLs] 
 
-## WHAT ARE APIs AND WHY ARE THEY IMPORTANT 
-
-APIs are thus an important aspect of end-user interactions with a digital library. API's, and technical documentation more generally, are not part of the evaluation process for digital library development. This paper seeks to fill this gap in two ways: 
+APIs are thus an important aspect of end-user interactions with a digital library. API's, and technical documentation more generally, are not part of the evaluation digital library development. This paper seeks to fill this gap in two ways: 
 
 1. Provide a background to API usability, documentation, and evaluation from software industry. 
-2. Propose a metric which quantifies Th.3. e coverage and completeness of API documentation, both formal and informal. 
-3. Evaluate five large-scale digital library APIs based on these criteria. 
-
-
+2. Evaluate the assesability of technical documentation for the APIs in five large-scale digital libraries (
+   [note - assesability of different types of documentaiton is based on coverage and completeness - criteria hinted at below] 
 # Background on documentation, API usability
 
-In a field study of 440 software engineers, R + D find that the biggest obstacle to learning APIs is poor documentation and insufficient learning resources. They recommend the following criteria for improving documentation: **documentation of intent; code examples; matching APIs with scenarios; penetrability of the API; and format and presentation**. (Robillard and Deline, 2011) 
+[[Wiki](https://github.com/nniiicc/API_Documentation_JCDL/wiki)  has start of lit review]
 
-`note to self: use these recommendations for evaluation criteria`
+- In a field study of 440 software engineers, R + D find that the biggest obstacle to learning APIs is poor documentation and insufficient learning resources. They recommend the following criteria for improving documentation: **documentation of intent; code examples; matching APIs with scenarios; penetrability of the API; and format and presentation**. (Robillard and Deline, 2011) 
 
-[See the neverworkintheory links at bottom for this section]
+`these recommendations can be used as evaluation criteria for completeness`
 
 
-# Related work 
-
-Tools for creating API documentation:               
-- Jungloids, Jadeite, and JavaDOC
+**Tools for creating API documentation**               
+- Jungloids, 
+- Jadeite, and 
+- JavaDOC
 
 # Research Questions 
+
+[Write formal research questions - thinking they will correspond to ]
 
 **RQ 1.** Coverage and Completeness of Docoumentation. 
 
@@ -111,8 +111,7 @@ RQ 1.1 None of these API docs describe methods <--- Fuck this noise
 RQ 1.2 [Need to better understand what criteria of assesment are in Robillard and Deline] 
 
 
-## Works Cited
-- Wickett, K. M., Isaac, A., Doerr, M., Fenlon, K., Meghini, C., & Palmer, C. L. (2014). Representing Cultural Collections in Digital Aggregation and Exchange Environments. D-Lib Magazine, 20(5), 2.
+## Potential Works Cited
 
 - B.Dagenais and M. P. Robillard. Creating and evolving developer documentation: Understanding the
 decisions of open source contributors. In Proceedings of the 18th ACM SIGSOFT International Symposium
@@ -121,6 +120,8 @@ on the Foundations of Software Engineering, pages 127–136, November 2010
 - Robillard and Deline 2011a http://dl.acm.org/citation.cfm?id=2036677
 
 - Robillard and Deline 2011b ->  http://www.cs.mcgill.ca/~martin/papers/cr2014a.pdf
+
+- Wickett, K. M., Isaac, A., Doerr, M., Fenlon, K., Meghini, C., & Palmer, C. L. (2014). Representing Cultural Collections in Digital Aggregation and Exchange Environments. D-Lib Magazine, 20(5), 2.
 
 - On Crowd Documentaiton http://neverworkintheory.org/2012/06/05/crowd-documentation.html
 
