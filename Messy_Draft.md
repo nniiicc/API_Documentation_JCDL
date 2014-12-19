@@ -1,18 +1,15 @@
 # Abstract
 
-Technical documentation is boring. It's boring to plan, it's boring to create, and it's especially boring to read. But, technical documentation is also an incredibly important resource for users and developers of digital libraries. This is especially true of large scale digital library initiatives that offer application programming interfaces (APIs) for accessing large collections of digital artifacts. In this paper we propose evaluation criteria for APIs. 
+Technical documentation is boring. It's boring to create and it's especially boring to read. But, technical documentation is also an incredibly important resource for users and developers of digital libraries. This is especially true of large scale digital library initiatives that offer application programming interfaces (APIs) for accessing large collections of digital artifacts. In this paper we propose evaluation criteria for digital library APIs, and introduce a coverage and completeness metric for technical documentaiton more generally.  
 
 ## Introduction
 
 It may seem trite to observe the profound effect that large-scale digital library initiatives have had on the access, and use of of cultural heritage artifacts; but, it shouldn't. Initiatives such as Europeana, the Hathi Trust, and the Digital Public Library of America (DPLA) have created collections of diverse digital materials that make new forms of scholarship, and new modes of cultural understanding possible. Perhaps most profoundly, these new aggregations of resources are allowing the digital humanities to flourish - realizing the potential of not only a 'Renaissance' view of great ideas, but also a pragmatic view of ourselves and the role of the arts in our public lives (Adams, 2014). Consider the following examples: 
 
-- In his revelatory work on income inequality the french economist Thomas Piketty claimed that the 19th and 20th century novel was a mirror. Not content to take this assertion at face value, Underwood et al. showed that in fact, fiscal language became more pronounced during this time period (2014) 
+- In his revelatory economic work, Thomas Piketty claimed that the 19th and 20th century novel was a mirror of income inequality  ... Underwood et al. used the HathiTrust digital library - a collection of X million texts - to show that in fact, fiscal language became more pronounced during this time period (2014).  
+- Other examples
 
-- DPLA gif contest - 
-
-
-
-These examples are not subtle shifts in scholarship - they represent paradigmatic new ways of knowing, and they simultaneously require new approaches to traditional concepts in digital library development, such as the scholarly collection (), accessibility (), intellectual property rights (), and evaluation criteria (Feinberg, )
+These examples are not subtle shifts in scholarship - they represent paradigmatic new ways of knowing, and they simultaneously require new approaches to traditional concepts in digital library development, such as the scholarly collections (Wicket et al, 2014), accessibility (), intellectual property rights (), and evaluation criteria (Feinberg, )
 
 In this paper, we focus on documentation of application programming interfaces (APIs) as      
 
@@ -36,7 +33,7 @@ As early as the 1970s economic studies of technical documentation were being con
 
 Q & A sites, development blogs, and social media also play an important role in supplementing existing documentation - in some cases - offering high levels of coverage and author engagement (Parnin and Treude, 2011). A distinction can be made between the types of documentation we've described thus far: 
 
-- *creator documentaiton*
+- *developer documentaiton* [write defintion of typical tech. documentaiton here here]
 
 - *communnity documentation*, such as wikis used by open source projects, allow anyone involved with the creation or use of a resource to contribute to documentation about the resource. 
 
@@ -62,66 +59,85 @@ In a field study of 440 software engineers, R + D find that the biggest obstacle
 [See the neverworkintheory links at bottom for this section]
 
 
-- Talk about big DL initiatives here
-- Talk about interoperability here
-- Talk about what the paper will do here.... 
-
 # Related work 
 
-Tools for API documentation: Jungloids and Jadeite
-
+Tools for creating API documentation:               
+- Jungloids, Jadeite, and JavaDOC
 
 # Research Questions 
+
+**RQ 1.** Coverage and Completeness of Docoumentation. 
+
+- **RQ 1.1** Coverage is using survey of methods found in "community documentaiton " and "crowd documentaiton" similar to approach used by  Parnin and Treude, 2011 (see table 1) 
+
+`Note about RQ 1.1 - may be impossible because documentation is so poor`
+
+- **RQ 1.2** Completeness is degree to which "developer documentation" conforms to criteria outlined by Robillard and Deline, 2011a, and 2011b (see table 2) 
 
 # Methods
 
 ## Data Collection
 
-Create a list of number of API methods available across the DLs
+**Table 1**
+
+| DL                       | Link                                                           | Number of Methods   |
+|--------------------------|----------------------------------------------------------------|---|
+| DPLA                     | http://dp.la/info/developers/codex/'                           | no methods   |
+| Hathi Trust              | http://www.hathitrust.org/data_api                             |  no methods |
+| Europeana                | http://pro.europeana.eu/api                                    |  no methods |
+| NYPL Digital Collections | http://api.repo.nypl.org/                                      | no methods  |
+| DDB                      | https://www.deutsche-digitale-bibliothek.de/content/terms/api/ |no methods   |
+| arXiv                    | http://arxiv.org/help/api/index                                |  no methods |
+
+
+**Table 2**
+
+| -                        | Documentation of intent | Code examples | Matching APIs with scenarios | Penetrability of the API | Format and presentation |
+|--------------------------|-------------------------|---------------|------------------------------|--------------------------|-------------------------|
+| DPLA                     |                         |               |                              |                          |                         |
+| HathiTrust               |                         |               |                              |                          |                         |
+| Europeana                |                         |               |                              |                          |                         |
+| NYPL Digital Collections |                         |               |                              |                          |                         |
+| DDB                      |                         |               |                              |                          |                         |
+| arXiv                    |                         |               |                              |                          |                         |
+
+
 
 ## Data Analysis
 
+RQ 1.1 None of these API docs describe methods <--- Fuck this noise
+RQ 1.2 [Need to better understand what criteria of assesment are in Robillard and Deline] 
 
 
 ## Works Cited
+- Wickett, K. M., Isaac, A., Doerr, M., Fenlon, K., Meghini, C., & Palmer, C. L. (2014). Representing Cultural Collections in Digital Aggregation and Exchange Environments. D-Lib Magazine, 20(5), 2.
 
-- B.Dagenais and M. P. Robillard. Creating and
-evolving developer documentation: Understanding the
-decisions of open source contributors. In
-Proceedings
-of the 18th ACM SIGSOFT International Symposium
-on the Foundations of Software Engineering
-, pages
-127–136, November 2010
+- B.Dagenais and M. P. Robillard. Creating and evolving developer documentation: Understanding the
+decisions of open source contributors. In Proceedings of the 18th ACM SIGSOFT International Symposium
+on the Foundations of Software Engineering, pages 127–136, November 2010
 
-- http://neverworkintheory.org/2012/06/05/crowd-documentation.html
+- Robillard and Deline 2011a http://dl.acm.org/citation.cfm?id=2036677
 
-- http://neverworkintheory.org/2011/11/08/a-field-study-of-api-learning-obstacles.html 
+- Robillard and Deline 2011b ->  http://www.cs.mcgill.ca/~martin/papers/cr2014a.pdf
 
-- http://neverworkintheory.org/2011/08/23/creating-and-evolving-developer-documentation.html
+- On Crowd Documentaiton http://neverworkintheory.org/2012/06/05/crowd-documentation.html
 
--  D. Mandelin, L. Xu, R. Bod ́ık, and D. Kimelman.
-Jungloid mining: helping to navigate the api jungle. In
-Proceedings of the 2005 ACM SIGPLAN conference
-on Programming language design and implementation
-,
-PLDI ’05, pages 48–61. ACM, 2005
+- On usability of APIs http://neverworkintheory.org/2011/11/08/a-field-study-of-api-learning-obstacles.html 
 
--  J. Stylos, B. A. Myers, and Z. Yang. Jadeite:
-improving api documentation using usage information.
-In
-Proceedings of the 27th international conference
-extended abstracts on Human factors in computing
-systems
-, CHI ’09, pages 4429–4434, New York, NY,
-USA, 2009. ACM
+- On (super cool) evolution of docummentation http://neverworkintheory.org/2011/08/23/creating-and-evolving-developer-documentation.html
+
+-  D. Mandelin, L. Xu, R. Bod ́ık, and D. Kimelman. Jungloid mining: helping to navigate the api jungle. In
+Proceedings of the 2005 ACM SIGPLAN conference on Programming language design and implementation, PLDI ’05, pages 48–61. ACM, 2005
+
+-  J. Stylos, B. A. Myers, and Z. Yang. Jadeite: improving api documentation using usage information.
+In Proceedings of the 27th international conference extended abstracts on Human factors in computing
+systems, CHI ’09, pages 4429–4434, New York, NY, USA, 2009. ACM
 
 - Shriver, E. and Hart, F. Study and proposal for the improvement of military technical
 information transfer methods. Aberdeen Proving Grounds, MD: U.S. Army Human Engineering
 Laboratory, December 1975
 
 - http://www.neh.gov/about/chairman/speeches/address-national-federation-state-councils
-
 
 Other things to look at: 
 
